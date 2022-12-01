@@ -1,0 +1,74 @@
+.newpost {
+    padding: 20px 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 101vh;
+}
+
+.newpost .header {
+    width: 100%;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin: 0 auto;
+    align-items: center;
+    text-transform: capitalize;
+    background-color: var(--base3);
+    border-radius: 10px 10px 0 0;
+}
+
+.newpost .header img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+.newpost textarea {
+    width: 100%;
+    max-width: 800px;
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    resize: none;
+    margin: 0 auto;
+    align-items: center;
+    text-transform: capitalize;
+    background-color: var(--base2);
+    border: 0;
+    outline: none;
+    color: white;
+    font-weight: 500;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.newpost button {
+    background-color: white;
+    margin: 0;
+    padding: 15px 30px;
+    border-radius: 0 0 10px 10px;
+    border: 0;
+    outline: none;
+    display: flex;
+    justify-content: center;align-items: center;width: 100%;
+    transition: .8s;
+}
+
+.newpost button:hover {
+    background-color: rgb(189, 189, 189);
+}
+
+.newpost button img {
+    margin: 0 10px 0 0;
+}
+
+@media (max-width: 800px) {
+    .newpost button {
+
+    }
+}
